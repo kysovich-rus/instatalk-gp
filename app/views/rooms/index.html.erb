@@ -9,9 +9,9 @@
   </div>
   <div class="col-6">
     <h2 class="display-3">Online</h2>
-    <div id="users_online">
+    <div id="users_online" class="text-success">
       <% @users_online.each do |user| %>
-        <div id="<%= user.id %>" class="text-success">
+        <div id="<%= user.id %>">
           <i class="bi bi-person-fill"></i><%= user.nickname %>
         </div>
       <% end %>
