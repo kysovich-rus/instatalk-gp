@@ -36,6 +36,11 @@ gem 'passenger', '~> 6.0', '>= 6.0.15'
 gem 'dotenv-rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+#
+gem 'resque'
+gem 'resque-scheduler'
+gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
+gem 'ed25519', '>= 1.2', '< 2.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -45,6 +50,13 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  gem 'capistrano-bundler', '~> 1.2'
+  gem 'capistrano-passenger', '~> 0.2'
+  gem 'capistrano-rails', '~> 1.2'
+  gem 'capistrano-rbenv', '~> 2.1'
+  gem 'capistrano-resque', "~> 0.2.3", require: false
+  gem 'capistrano', '~> 3.8'
 end
 
 group :production do
