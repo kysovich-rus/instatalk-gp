@@ -2,7 +2,7 @@
 
 Простейший онлайн-чат без регистрации и смс. Подключайся и пиши!
 
-![http://instatalk.bbq-gp.site](https://user-images.githubusercontent.com/70809854/193790056-96a312d0-9481-45a5-b466-ee3b998495bc.png)
+[![Переход](https://user-images.githubusercontent.com/70809854/193790056-96a312d0-9481-45a5-b466-ee3b998495bc.png)](http://instatalk.bbq-gp.site)
 
 
 Реализовано:
