@@ -1,24 +1,22 @@
-# README
+# Instatalk
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Простейший онлайн-чат без регистрации и смс. Подключайся и пиши!
 
-Things you may want to cover:
+[![Переход](https://user-images.githubusercontent.com/70809854/193790056-96a312d0-9481-45a5-b466-ee3b998495bc.png)](http://instatalk.bbq-gp.site)
 
-* Ruby version
 
-* System dependencies
+Реализовано:
+- Список открытых комнат и их генератор
+- Авторегистрация со случайным именем (используются cookies)
+- Список подключенных пользователей
 
-* Configuration
+Использованы в работе:
+Ruby: 2.5.8
+Rails: 5.1.4
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+А также:
+- Turbolinks (ускорение работы)
+- Bootstrap (CSS)
+- CoffeeScript (скрипты)
+- Redis (для работы с ActionCable в production)
+- Capistrano (выгрузка приложения на сервер)
